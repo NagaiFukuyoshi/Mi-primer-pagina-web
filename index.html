@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horse Club</title>
+
+    <!-- Estilo sitio web css-->
+	<link rel="stylesheet" href="css/estilo.css">
+	<!-- Enlace a bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+	<!-- Enlace a font awesome -->
+	<link rel="stylesheet" href="fontawesome/css/all.css">  
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">  
+
+</head>
+<body>
+
+    <header>
+        <h2 class="titulo">Horse <span class="letra1"> club </span></h2>    
+    
+    <!-- menu-->
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+        </label>
+        <nav class="menu">
+            <a href="#">About us</a>
+            <a href="#">Our houses</a>
+            <a href="#">Staff</a>
+            <a href="#">Links</a>
+            <a href="#">Contacts</a>
+            <label for="check" class="esconder-menu">
+            </label>
+        </nav>
+    </header>
+    
+<!--Slider-->
+
+<div  class="container-all">
+  <input type="radio" id="1" name="image.slide" hidden/>
+  <input type="radio" id="2" name="image.slide" hidden/>
+  <input type="radio" id="3" name="image.slide" hidden/>
+  <input type="radio" id="4" name="image.slide" hidden/>
+  
+  <div class="slide" >
+    <div class="item-slide">
+      <img src="imagenes/slide1.jpg">
+    </div>
+    <div class="item-slide">
+      <img src="imagenes/slide1.jpg">
+    </div>
+    <div class="item-slide">
+      <img src="imagenes/slide1.jpg">
+    </div>
+    <div class="item-slide">
+      <img src="imagenes/slide1.jpg">
+    </div>
+  </div>
+
+  <div class="pagination">
+    <label class="pagination-item" for="1">
+      <img src="imagenes/slide1.jpg">
+    </label>
+    <label class="pagination-item" for="2">
+      <img src="imagenes/page1_img1.jpg">
+    </label>
+    <label class="pagination-item" for="3">
+      <img src="imagenes/page1_img2.jpg">
+    </label>
+    <label class="pagination-item" for="4">
+      <img src="imagenes/page1_img3.jpg">
+    </label>
+  </div>
+
+</div>
+
+<!--banner-->
+
+<section class="banner">
+  <div class="contenido-banner">
+    <br />
+    <h3>Welcome</h3>
+    <br />
+    <br />
+    <br />
+    <a class="parrafo1">Masagni dolores eoquie voluptate msequiciunt. Niquerro</a>
+    <a class="parrafo2">quisquam estqui dolorem ipsumquia dolor sitamet </a>
+    <a class="parrafo3">conetasesa adipisci unumquam eius. Basmodi <span class="letra2"> tempora indut </span></a> 
+    <a class="parrafo4">ut laboreas dolore magnam aliquam quaerat ptatem. Munin</a> 
+    <a class="parrafo5">ad minim eniamagse quis nostrum exercitationem ullam.</a>
+    <br />
+    <br />
+    <input type="button" value="READ MORE" class="btn" id="readmore1">
+    <br />
+      <div>
+        <img class="photo1" src="imagenes/membership.png">
+      </div>
+    <br />
+    <article class="txt1">Fadipisci unnumqu eius. <span id="letra3"> Basmodi tempora duntut </span> <span id="letra4"> kaser laboreas.  </span></article>
+    <br />
+    <input type="button" value="LEARN MORE" class="btn" id="learnmore">
+    <br />
+      <div id="photo">
+        <img class="photo2" src="imagenes/activities.png">
+      </div>
+    <br />
+    <article class="txt2">Dolore magnam aliquam <span id="letra5"> quaerat ptatem munin ase </span> <span id="letra6"> minim karses.  </span></article>
+    <br />
+    <input type="button" value="VIEW MORE" class="btn" id="viewmore">
+  </div>
+</section>
+
+<!--Informacion pagina-->
+<section id="informacion" >
+  <div>
+    <h4>OUR HISTORY</h4>
+    <!--<article>_____________________________</article>-->
+    <img src="imagenes/page1_img1.jpg" alt="">
+    <p>Nertyase tiri masertas lertyars <br /> kuhas asety kertya aset aplicabo <br /> nereskes kertyu ersvitae ertynemo <br /> lasvaerat niptaiades goertayse</p>
+    <input type="button" value="READ MORE" class="btn" id="readmore2">
+  </div>
+
+  <div>
+    <h4>SHOW RESULTS</h4>
+    <!--<article>_____________________________</article>-->
+    <img src="imagenes/page1_img2.jpg" alt="">
+    <p>Beciegast nveriti vitaesaert viasead <br /> asety kertya aset aplicaboserde <br /> miuas nerafae kertyerauas vitaesa <br /> ertyatya nemo eniptaiades</p>
+    <input type="button" value="READ MORE" class="btn" id="readmore3">
+  </div>
+
+  <div>
+    <h4>PUBLICATIONS</h4>
+    <!--<article>_____________________________</article>-->
+    <img src="imagenes/page1_img3.jpg" alt="">
+    <p>Nertyase riti masertas lertyars <br /> kuhas asety kertya aseticabo <br /> nerafaeskes kertyu ersvitae <br /> ertynemosec vaerat niptaiades <br /> goertayse</p>
+    <input type="button" value="READ MORE" class="btn" id="readmore4">
+  </div>
+
+</section>
+
+<br />
+<br />
+
+<!--pie de pagina-->
+<section id="pie-de-pagina">
+  <div class="columna1" >
+    <a> STALLION LIST</a>
+    <br />
+    <a> NEWS & EVENTS</a>
+    <br />
+    <a> FRESH LINKS</a>
+  </div>
+
+  <div class="columna2" >
+    <i class="fas fa-chevron-circle-right"> GALLERY</i>
+    <br />
+    <i class="fas fa-chevron-circle-right"> OUR COMMUNITY</i>
+    <br />
+    <i class="fas fa-chevron-circle-right"> REGISTRATION</i>
+  </div>
+
+  <div class="columna1" >
+    <i class="fas fa-chevron-circle-right"> OUR EXPERIENCE</i>
+    <br />
+    <i class="fas fa-chevron-circle-right"> AWARDS</i>
+    <br />
+    <i class="fas fa-chevron-circle-right"> INSTRUTORS</i>
+  </div>
+
+  <div class="columna1" >
+    <i class="fas fa-chevron-circle-right"> RESOURCES</i>
+    <br />
+    <i class="fas fa-chevron-circle-right"> CONTAC US</i>
+    <br />
+    <i class="fas fa-chevron-circle-right"> FORUM</i>
+  </div>
+
+  <div class="email" >
+    <h6>NEWSLETTER SIGN UP</h6>
+    <label for="email"></label>
+    <input type="email" name="email" id="email" placeholder="Enter your E-mail">
+  </div>
+
+</section>
+    
+</body>
+
+<!-- script bootstrap -->
+<script src="js/bootstrap/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+</html>
